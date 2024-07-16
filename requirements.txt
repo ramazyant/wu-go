@@ -1,0 +1,14 @@
+GPy==1.10.0
+ipython==7.21.0
+matplotlib==3.4.3
+numpy==1.22.0
+pandas==2.0.3
+pickle5==0.0.11
+scikit_learn==1.2.2
+scipy==1.10.1
+seaborn==0.13.2
+torch==1.9.1
+torchbnn==1.2
+torchensemble==0.1.9
+tqdm==4.62.3
+git+https://github.com/SheffieldML/PyDeepGP.git
