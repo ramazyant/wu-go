@@ -1,6 +1,6 @@
 # Global Optimisation of Black-Box Functions with Generative Models in the Wasserstein Space
 
-Official code for the paper [Global Optimisation of Black-Box Functions with Generative Models in the Wasserstein Space](). 
+Official code for the paper [Global Optimisation of Black-Box Functions with Generative Models in the Wasserstein Space](https://arxiv.org/abs/2407.11917). 
 
 Tigran Ramazyan*, Mikhail Hushchyn, Denis Derkach.
 
@@ -32,9 +32,16 @@ Available options:
 - surrogate_model: `GAN`, `BNN`, `DE`, `GP`, `DGP`
 
 
-<!-- ## Citation
+## Citation
 
 ```
-@inproceedings{
+@misc{ramazyan2024globaloptimisationblackboxfunctions,
+      title={Global Optimisation of Black-Box Functions with Generative Models in the Wasserstein Space}, 
+      author={Tigran Ramazyan and Mikhail Hushchyn and Denis Derkach},
+      year={2024},
+      eprint={2407.11917},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2407.11917}, 
 }
-``` -->
+```
