@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ```
 
 Available options:
-- experiment: `three_hump_camel`, `ackley`, `levi`, `rosenbrock`, `tang`
+- experiment: `three_hump_camel`, `ackley`, `levi`, `himmelblau`, `rosenbrock8`, `rosenbrock20`, `tang`
 - acquisition_function: `WU-GO`, `EI`, `LCB`
 - surrogate_model: `GAN`, `BNN`, `DE`, `GP`, `DGP`
 
