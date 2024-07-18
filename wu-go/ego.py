@@ -186,7 +186,7 @@ class EGO(object):
             if self.opt == 'EI': best_next_params = np.array([inter_conds[np.argmax(EI)]])
             else: best_next_params = np.array([inter_conds[np.argmin(EI)]])
             
-            if self.func(best_next_params) < np.log(self.opt_eps):
+            if np.any(np.linalg.norm(self.func.glob_min - inter_conds[np.argmin(EI)], ord=2, axis=-1) < self.opt_eps):
                 print(f'{self.model.name} has converged!')
                 break
             elif n_iter == self.max_iter:
