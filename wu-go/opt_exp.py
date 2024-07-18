@@ -11,18 +11,18 @@ from test_functions import *
 
 def test(model='GAN', func=three_hump_camel(), opt='WU-GO'):
     
-    seeds = [2]#, 3, 5, 7, 11, 13, 17, 19, 23, 73] # seeds control the location of initial responses given to the model
+    seeds = [2, 3, 5, 7, 11, 13, 17, 19, 23, 73] # seeds control the location of initial responses given to the model
     
     for seed in seeds:
         
         # running a single test...
         
         if model not in ['GP', 'DGP']:
-            model_ = ego_models.EGO_model(model=model, n_inputs=func.dim, n_epochs=3)
+            model_ = ego_models.EGO_model(model=model, n_inputs=func.dim)
         else:
             model_ = model
             
-        opt_model = ego.EGO(model=model_, func=func, opt=opt, seed=seed, max_iter=1)
+        opt_model = ego.EGO(model=model_, func=func, opt=opt, seed=seed)
         
         res = opt_model.optimise()
     
