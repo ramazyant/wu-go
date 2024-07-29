@@ -4,6 +4,10 @@ Official code for the paper [Global Optimisation of Black-Box Functions with Gen
 
 Tigran Ramazyan*, Mikhail Hushchyn, Denis Derkach.
 
+## Pypi package
+
+[WAGGON](https://github.com/hse-cs/waggon/tree/main)
+
 ## Installation
 
 - Create conda environment:
