@@ -6,7 +6,7 @@ Tigran Ramazyan*, Mikhail Hushchyn, Denis Derkach.
 
 ## Pypi package
 
-[WAGGON](https://github.com/hse-cs/waggon/tree/main)
+[WAGGON: WAsserstein Global Gradient-free OptimisatioN](https://github.com/hse-cs/waggon/tree/main)
 
 ## Installation
 
